@@ -52,7 +52,7 @@ npm i weapp-icon-button
 <icon-button
   type="info"
   plain
-  image="../../light.png"
+  image="/light.png"
 />
 
 <icon-button
