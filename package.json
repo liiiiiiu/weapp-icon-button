@@ -1,0 +1,22 @@
+{
+  "name": "weapp-icon-button",
+  "version": "1.0.0",
+  "description": "🌞 微信小程序图标按钮自定义组件",
+  "main": "index.js",
+  "miniprogram": "dist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liiiiiiu/weapp-icon-button"
+  },
+  "author": "liujiachang",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {},
+  "keywords": [
+    "微信小程序",
+    "weapp",
+    "components",
+    "button"
+  ]
+}
