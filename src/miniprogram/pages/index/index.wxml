@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<icon-button
+  size="large"
+  type="default"
+  icon="like"
+  icon-size="1.6em"
+  bind:click="onClick"
+/>
+
+<icon-button
+  size="normal"
+  type="primary"
+  icon="like"
+>
+  <view class="text-xs">客服</view>
+  <button open-type="contact" class="absolute inset-0 z-10 w-full h-full opacity-0"></button>
+</icon-button>
+
+<icon-button
+  type="info"
+  plain
+  image="/light.png"
+/>
+
+<icon-button
+  size="small"
+  type="warning"
+  icon="user"
+  disabled
+/>
+
+<icon-button
+  size="mini"
+  type="danger"
+  plain
+  icon="user-o"
+  loading
+  loading-type="spinner"
+/>

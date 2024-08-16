@@ -1,4 +1,4 @@
-// components/IconButton/IconButton.js
+// components/IconButton/IconButton.ts
 Component({
   options: {
     styleIsolation: 'shared'
@@ -11,8 +11,8 @@ Component({
     lang: String,
     icon: String,
     iconSize: {
-      type: String,
-      value: '1.2em',
+        type: String,
+        value: '1.2em',
     },
     image: String,
     imageMode: {
@@ -28,29 +28,29 @@ Component({
       value: '54%'
     },
     classPrefix: {
-      type: String,
-      value: 'van-icon',
+        type: String,
+        value: 'van-icon',
     },
     plain: Boolean,
     hairline: Boolean,
     disabled: Boolean,
     customStyle: String,
     type: {
-      type: String,
-      value: 'default',
+        type: String,
+        value: 'default',
     },
     size: {
-      type: String,
-      value: 'normal',
+        type: String,
+        value: 'normal',
     },
     loading: Boolean,
     loadingType: {
-      type: String,
-      value: 'circular',
+        type: String,
+        value: 'circular',
     },
     loadingSize: {
-      type: String,
-      value: '20px',
+        type: String,
+        value: '20px',
     }
   },
 
